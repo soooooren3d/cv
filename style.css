@@ -77,15 +77,14 @@ a {
     text-align: justify;
 }
 
-/* deux colonnes */
+
 .colonnes {
     display: flex;
     gap: 20px;
 }
 
-.colonnes > .carte,
-.droite {
-    flex: 1;
+.carte {
+  background: red;
 }
 
 .categorie {
